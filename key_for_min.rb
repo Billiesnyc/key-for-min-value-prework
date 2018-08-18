@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
       else 
       end
     end
-    min_value_key[0]
+    return min_value_key[0]
   else
     puts "Hey! No block was given!"
   end
