@@ -7,10 +7,10 @@ def key_for_min_value(name_hash)
     puts "Hey! No hash was given!"
     
   else
-    min_value_key = [1,]
+    min_value_key = [1]
     name_hash.each do |key, value|
         if min_value_key[0] > value
-        min_value_key.shift(key)
+        min_value_key.unshift(key)
       
       end
     end
