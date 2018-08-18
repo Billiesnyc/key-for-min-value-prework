@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
   if name_hash.empty?
     puts "Hey! No hash was given!"
+    
   else
     min_value_key = []
     
@@ -13,6 +14,7 @@ def key_for_min_value(name_hash)
       else 
       end
     end
+    
     return min_value_key[0]
   
   end
