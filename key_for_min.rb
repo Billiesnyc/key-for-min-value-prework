@@ -15,7 +15,7 @@ def key_for_min_value(name_hash)
         min_value_key.push(key)
       end
     end
-    
+    min_value_key.delet(2)
     return min_value_key.first
   
   end
