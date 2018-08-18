@@ -5,5 +5,6 @@ def key_for_min_value(name_hash)
   if block_given?
     
   else
-    puts ""
+    puts "Hey! No block was given!"
+  end
 end
