@@ -3,6 +3,8 @@
 
 def key_for_min_value(name_hash)
   if name_hash.empty?
+    puts "Hey! No block was given!"
+  else
     min_value_key = []
     
     name_hash.each do |key, value|
@@ -12,7 +14,6 @@ def key_for_min_value(name_hash)
       end
     end
     return min_value_key[0]
-  else
-    puts "Hey! No block was given!"
+  
   end
 end
